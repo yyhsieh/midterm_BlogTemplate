@@ -1,4 +1,4 @@
-# [Midterm Project]
+# [Midterm Project]: Blog Template
 
 ## Project Name  
 
