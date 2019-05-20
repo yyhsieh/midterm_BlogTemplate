@@ -1,0 +1,352 @@
+/* Place Holder CSS */
+
+::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+::-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-ms-input-placeholder {  
+  color: #000;
+  opacity: 0.5;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder {
+  opacity: 0.75;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover::-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-ms-input-placeholder {  
+  opacity: 0.75;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus:-ms-input-placeholder {  
+  opacity: 0;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+
+.DEL button
+{
+  font-size: 14px;
+  padding: 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 0px solid #7891ab;
+  line-height: 20px;
+  width: 20%;
+  display: inline;
+  clear: both;
+  margin-bottom: 5px;
+  background-color: #4a6987;
+  color: white;
+  cursor: pointer;
+}
+
+.DEL button:hover, .niceform button:focus
+{
+  outline: none;
+  background-color: #6c8fb2;
+  color: white;
+}
+
+/* Custom Input Style */
+.niceform input, .niceform textarea
+{
+  font-size: 1em;
+  padding: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 3px solid #bbb;
+  line-height: 20px;
+  text-indent: 5px;
+  width: 95%;
+  display: block;
+  clear: both;
+  margin-bottom: 5px;
+}
+.niceform textarea
+{
+  height: 150px;
+}
+.niceform button
+{
+  font-size: 16px;
+  padding: 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 0px solid #7891ab;
+  line-height: 20px;
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-bottom: 5px;
+  background-color: #4a6987;
+  color: white;
+  cursor: pointer;
+}
+.niceform button:hover, .niceform button:focus
+{
+  outline: none;
+  background-color: #6c8fb2;
+  color: white;
+}
+.niceform input:hover, .niceform textarea:hover
+{
+  outline: none;
+  border-color: #6c8fb2;
+}
+.niceform input:focus, .niceform textarea:focus
+{
+  outline: none;
+  border-color: #6c8fb2;
+}
+
+.NavBar {
+  overflow: hidden;
+  left: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #294765;
+}
+
+.navlink {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.effect-underline{
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+}
+
+.effect-underline:hover{
+  color: #96adc5;
+}
+
+.effect-underline:after {
+  content: '';
+  color: white;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 2px solid;
+  margin-top: 10px;
+  opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+  opacity: 0.7;
+    -webkit-transform: scale(1);
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3{
+  font-family: 'Palanquin Dark';
+}
+
+body {
+  font-family: 'Amiko';
+  text-align: justify;
+  text-justify:inter-ideograph;
+  padding: 20px;
+  background: #f1f1f1;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+/* Header/Blog Title */
+.header {
+  height: 400px;
+  width: 105%;
+  margin-top: -20px;
+  margin-left: -30px;
+  font-size: 40px;
+  opacity: 50%;
+  text-align: center;
+  vertical-align: center;
+  color: #000;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 74%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  align-content: center;
+  width: 25%;
+  padding-left: 5px;
+}
+
+/* Fake image */
+.imgblock {
+  background-color: white;
+  width: 95%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+
+.article {
+  background-color: white;
+  /*background: linear-gradient(to right, white, #dae3ec);*/
+  opacity: 50%;
+  padding: 20px;
+  width: 95%;
+  margin-top: 20px;
+  /*border: 4px #d1dbe5 solid;*/
+}
+
+.article h1 {
+  color: #53789d;
+}
+
+.article h3 {
+  color: grey;
+}
+
+.article2 {
+  background-color: #b1c2d3;
+  /*background: linear-gradient(to right, white, #dae3ec);*/
+  padding: 20px;
+  width: 95%;
+  margin-top: 20px;
+  /*border: 4px #d1dbe5 solid;*/
+}
+
+.article2 h1 {
+  color: white;
+}
+
+.article2 h3 {
+  color: grey;
+}
+
+.sidebar {
+  font-family: 'Palanquin Dark';
+  /*border-radius: 10px;*/
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.a{
+  text-decoration: none;
+}
+
+.modal-dialog {
+text-align: left;
+padding-bottom: 50px; 
+}
+
+.Modalrow {
+  height: 300px;
+  width: 105%;
+  padding: 20px;
+  margin-left: -30px;
+  opacity: 100%;
+  text-align: center;
+  vertical-align: center;
+  background-color: #294765;
+  color: white;
+}
+
+.modal-dialog {
+    margin-bottom: 15px;
+}
+
+.headertitle:hover{
+  color: #404040;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  width: 102%; /* Full width */
+  height: 50px;
+  bottom: 0;
+  margin-left: -30px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
