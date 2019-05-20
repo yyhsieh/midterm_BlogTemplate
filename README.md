@@ -1,6 +1,6 @@
-# Blog Template  
+# [Midterm Project]
 
-## Project Title  
+## Project Name  
 
 My midterm project is a `Blog Template`, with the function to add some new posts and to delete / modify each post.
 
