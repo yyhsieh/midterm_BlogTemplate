@@ -8,7 +8,7 @@
 `npm install` in `client`  
 `npm install` in main folder  
 and `npm start` in main folder  
-http://localhost:3000 
+開啟網頁：http://localhost:3000 
 
 ## 使用/操作方式
 右邊的欄位可以發表新文章（到左方欄位的下方），  
@@ -30,14 +30,14 @@ https://codepen.io/colloque/pen/bDgmx
 
 ## Contributions
 
-[1] 大幅改動原先css的版型並以react.js的方式render出頁面  
-[2] 利用node.js將一些固定頁面做URL routing   
-[3] 新增文章的內容會直接上傳到MongoDB，並且可以針對文章作修改或刪除  
+[1] 大幅改動原先css的版型並以react.js的方式render出頁面(Client-side programs in React.js)  
+[2] 利用node.js做server端並將一些固定頁面做routing(Server-side programs in Node.js)  
+[3] 新增文章的內容會直接上傳到MongoDB，並且可以針對文章作修改或刪除(Database to store persistent data)  
 
 ## 心得
 
 藉由這樣的project能夠整合一些前面學過的東西，雖然做出的東西還不是很厲害，  
-但對前端到後端的連結已經有建立初步的概念。
+但對前端到後端的連結已經有建立初步的概念。  
 原本想要deploy到Heroku上面，但在routing部份的問題一直解決不了，  
 可能之後再研究看看要怎麼使用。  
 
