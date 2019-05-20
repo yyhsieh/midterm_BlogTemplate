@@ -48,7 +48,7 @@ https://codepen.io/colloque/pen/bDgmx
 1. Largely modify the css formating and render pages with React.js (Client-side programs in React.js)  
 2. Use `Node.js` for server-side programs and also do url routing (Server-side programs in Node.js)  
 3. The added new posts will be uploaded to MongoDB，and every posts can also be deleted or modified (Database to store persistent data)  
-4. All photos are taken by myself :p
+4. All photos were taken by myself :p
 
 ---
 
